@@ -11,6 +11,7 @@ const Slider = () => {
         />
       </Carousel.Item>
 
+
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -19,10 +20,11 @@ const Slider = () => {
         />
       </Carousel.Item>
 
+
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://th.bing.com/th/id/R.f14d6ded2c1359949bba681f728133cf?rik=VlJ7RpcbEr8Itg&pid=ImgRaw&r=0"
+          src="https://thumbs.dreamstime.com/b/fresh-bread-banner-template-horizontal-bakery-advertising-isolated-white-background-238177193.jpg"
           alt="Third slide"
         />
       </Carousel.Item>

@@ -23,11 +23,11 @@ const Footer = () => {
                                         <Link to="/"
                                             className="text-black transition hover:text-gray-700/75">
                                             Home
-                                        </Link>
+                                            </Link>
                                     </li>
 
                                     <li>
-                                        <Link to="products"
+                                    <Link to="products"
                                             className="text-black transition hover:text-gray-700/75">
                                             All products
                                         </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
                                         <Link to="About"
                                             className="text-black transition hover:text-gray-700/75">
                                             About
-                                        </Link>
+                                            </Link>
                                     </li>
 
                                     <li>
@@ -94,28 +94,28 @@ const Footer = () => {
                                     </li>
 
                                     <li>
-                                        <Link to="Fruits"
+                                    <Link to= "Fruits"
                                             className="text-black transition hover:text-gray-700/75">
                                             Fruits
                                         </Link>
                                     </li>
 
                                     <li>
-                                        <Link to="Meats"
+                                    <Link to= "Meats"
                                             className="text-black transition hover:text-gray-700/75">
                                             Meats
                                         </Link>
                                     </li>
 
                                     <li>
-                                        <Link to='Bakery'
+                                    <Link to='Bakery'
                                             className="text-black transition hover:text-gray-700/75">
                                             Bakery
                                         </Link>
                                     </li>
 
                                     <li>
-                                        <Link to='Frozen'
+                                    <Link to='Frozen'
                                             className="text-black transition hover:text-gray-700/75">
                                             Frozen
                                         </Link>

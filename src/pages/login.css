@@ -71,7 +71,7 @@
 }
 
 .login button.ghost:hover {
-	background-color: #22c55e;
+	background-color:#22c55e;
 	border-color: #ffffff;
 	transition: all 0.5s;
 }
@@ -386,49 +386,5 @@
 
 	.login .overlay-container {
 		display: none;
-	}
-}
-
-@media screen and (max-width: 650px) {
-	.login {
-		margin: 0;
-		padding: 50px 0;
-	}
-
-	.login .container {
-		width: 100%;
-		height: auto;
-		min-height: 0;
-	}
-
-	.login .form-container {
-		position: static;
-		height: auto;
-		transform: none;
-		transition: none;
-	}
-
-	.login .sign-in-container,
-	.login .sign-up-container {
-		width: 100%;
-	}
-
-	.login .overlay-container {
-		display: none;
-	}
-
-	.login .overlay {
-		width: 100%;
-		position: relative;
-		left: 0;
-		transform: none;
-	}
-
-	.login .overlay-panel {
-		padding: 0 20px;
-	}
-
-	.login .social-container {
-		margin: 20px 0 0;
 	}
 }

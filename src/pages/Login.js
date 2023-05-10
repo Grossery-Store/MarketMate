@@ -24,21 +24,29 @@ export default function SignInUpForm() {
     navigate('/')
   };
 
-  const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+ 
 
+  const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
   //  localStorage here 
 
+
   const [userData, setUserData] = useState([]);
   const handleSignUpSubmit = (event) => {
+
     event.preventDefault();
     const name = event.target.elements.name.value;
     const email = event.target.elements.email.value;
     const password = event.target.elements.password.value;
+
     const newUser = { name, email, password };
     setUserData([...userData, newUser]);
+
     localStorage.setItem("userData", JSON.stringify([...userData, newUser]));
+
     navigate('/')
+
+
   }
 
   useEffect(() => {
@@ -64,7 +72,7 @@ export default function SignInUpForm() {
       }
     }
     console.log("Invalid email or password");
-    const erorr = "Invalid email or password"
+    const erorr ="Invalid email or password"
   };
 
   return (
@@ -80,13 +88,19 @@ export default function SignInUpForm() {
               <GoogleLogin
                 clientId="131293938195-2k0p6ft4jn16fqf2nknb7t8iihfsk1id.apps.googleusercontent.com"
                 buttonText="Login with Google"
-                onSuccess={handleGoogleLoginSuccess}/>
+                onSuccess={handleGoogleLoginSuccess}
+              
+              />
               <br /> <br />
               <FacebookLogin
                 appId="189266677360423"
+
                 onSuccess={handleGoogleLoginSuccess}
                 callback={handleGoogleLoginSuccess}
-                cssClass="facebook-button"/>
+                // icon="fa-facebook"
+                cssClass="facebook-button"
+
+              />
 
             </div>
             <span>or use your email for registration</span>
@@ -104,13 +118,19 @@ export default function SignInUpForm() {
               <GoogleLogin
                 clientId="131293938195-2k0p6ft4jn16fqf2nknb7t8iihfsk1id.apps.googleusercontent.com"
                 buttonText="Login with Google"
-                onSuccess={handleGoogleLoginSuccess}/>
+                onSuccess={handleGoogleLoginSuccess}
+               
+              />
               <br /><br />
               <FacebookLogin
                 appId="189266677360423"
+
                 onSuccess={handleGoogleLoginSuccess}
+              
                 callback={handleGoogleLoginSuccess}
-                cssClass="facebook-button" />
+                // icon="fa-facebook"
+                cssClass="facebook-button"
+              />
             </div>
             <span>or use your account</span>
             <input type="email" name="email" placeholder="Email" required />
@@ -127,7 +147,7 @@ export default function SignInUpForm() {
               <button className="ghost" onClick={handleSignInClick}>
                 Sign In
               </button>
-
+              
             </div>
             <div className="overlay-panel overlay-right">
               <h1>Hello, Friend!</h1>

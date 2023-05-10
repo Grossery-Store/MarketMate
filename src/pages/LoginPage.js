@@ -1,12 +1,13 @@
 import React from "react";
 import Login from "../components/SignupForm/Login";
 
-const LoginPage = () => {
-  return (
+
+ const LoginPage = () => {
+  return(
     <>
-      <Login />
+    <Login/>
     </>
   )
-
+  
 }
 export default LoginPage;

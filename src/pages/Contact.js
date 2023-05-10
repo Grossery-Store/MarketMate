@@ -50,7 +50,7 @@ const Contact = () => {
             id="message"
             placeholder="Enter Your Message!"
             name="message"
-            required />
+            required/>
         </div>
         <div className="d-flex justify-content-center">
           <button className="btn-danger" type="submit" >

@@ -1,3 +1,4 @@
+/* img */
 img.mx-auto.d-block {
   width: 27%;
   display: flex;
@@ -15,7 +16,8 @@ img.mx-auto.d-block:hover {
   transform: translate3d(0, -0.25rem, 0);
 }
 
-h6.my-4 {
+
+h6.my-4{
   color: rgb(202, 53, 53);
   display: flex;
   justify-content: center;
@@ -31,15 +33,14 @@ h6.my-4 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
-strong {
+strong{
   display: contents;
 }
+
 
 h2.mb-3 {
   color: #80CA2D;
@@ -55,6 +56,20 @@ h6.mb-6 {
   color: #666666;
 }
 
+/* h6 */
+
+
+
+/* p.my-3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #666666;
+} */
+
+/* 
+teams */
+
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -64,6 +79,7 @@ h6.mb-6 {
   transition: 0.5s;
   height: 100%;
 }
+
 
 .team .member:hover {
   transform: translateY(-10px);
@@ -140,6 +156,9 @@ h6.mb-6 {
   margin-left: 8px;
 }
 
+/*  */
+
+/* p */
 p.my-3 {
   display: block;
   justify-content: center;
@@ -157,6 +176,7 @@ p.my-3:hover {
   transform: translate3d(0, -0.25rem, 0);
 }
 
+
 div.mb-3 {
   display: inline-flex;
   padding: .5rem;
@@ -164,10 +184,13 @@ div.mb-3 {
 }
 
 div.mb-4 {
+  /* display: flex; */
   padding: .5rem;
 }
 
 button.btn-danger {
+  /* background-color: #7a398c; */
+
   color: #edffeb;
   background-image: linear-gradient(#b2fe5c, #2B2B2D);
   border: none;
