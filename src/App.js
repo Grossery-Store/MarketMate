@@ -38,14 +38,11 @@ function App() {
 
   return (
     <>
-
       <BrowserRouter>
         <ProductContext.Provider value={{ data }}>
           <CartContext.Provider value={{ cart, setCart }}>
             <Header />
-            
             <Routes>
-           
               <Route path="Cart_page" element={<Basic />} />
               <Route path="/" element={<Landing />} />
               <Route path="Products" element={<Products />} />
@@ -58,12 +55,10 @@ function App() {
               <Route path="Search" element={<Search />} />
               <Route path="About" element={<About />} />
               <Route path="Contact" element={<Contact />} />
-              <Route path="Login" element={<SignInUpForm  />} />
-              
-             <Route path="Conff " element={<Conff />} />
+              <Route path="Login" element={<SignInUpForm />} />
+              <Route path="Conff " element={<Conff />} />
             </Routes>
             <Footer />
-         
           </CartContext.Provider>
         </ProductContext.Provider>
       </BrowserRouter>
