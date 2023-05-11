@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Landing from "./pages/Landing";
 import SignInUpForm from "./pages/Login";
+import SignUp from "./pages/Signup";
 import Footer from "./components/Footer/Footer";
 import "./components/ContactAbout/ConAbout.css";
 import Vegetables from "./components/P-Categories/Vegetables";
@@ -59,7 +60,7 @@ function App() {
               <Route path="About" element={<About />} />
               <Route path="Contact" element={<Contact />} />
               <Route path="Login" element={<SignInUpForm />} />
-
+              <Route path="Signup" element={<SignUp  />} />
               <Route path="Conff " element={<Conff />} />
             </Routes>
             <Footer />

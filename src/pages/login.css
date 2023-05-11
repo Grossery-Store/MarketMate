@@ -388,3 +388,22 @@
 		display: none;
 	}
 }
+
+/*  */
+
+.facebook-button.metro{
+	background-color: #1d1554;
+	width: 100%;
+	height: 3rem;
+	color: #fff;
+	/* padding: .2rem; */
+    justify-content: center;
+}
+
+button{
+	width: 100%
+}
+
+/* .facebook-button.metro.path{
+	padding-left: 2rem;
+} */
