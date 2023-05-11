@@ -24,8 +24,6 @@ export default function SignInUpForm() {
     navigate('/')
   };
 
- 
-
   const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
   //  localStorage here 
@@ -72,7 +70,7 @@ export default function SignInUpForm() {
       }
     }
     console.log("Invalid email or password");
-    const erorr ="Invalid email or password"
+    const erorr = "Invalid email or password"
   };
 
   return (
@@ -89,7 +87,7 @@ export default function SignInUpForm() {
                 clientId="131293938195-2k0p6ft4jn16fqf2nknb7t8iihfsk1id.apps.googleusercontent.com"
                 buttonText="Login with Google"
                 onSuccess={handleGoogleLoginSuccess}
-              
+
               />
               <br /> <br />
               <FacebookLogin
@@ -119,14 +117,14 @@ export default function SignInUpForm() {
                 clientId="131293938195-2k0p6ft4jn16fqf2nknb7t8iihfsk1id.apps.googleusercontent.com"
                 buttonText="Login with Google"
                 onSuccess={handleGoogleLoginSuccess}
-               
+
               />
               <br /><br />
               <FacebookLogin
                 appId="189266677360423"
 
                 onSuccess={handleGoogleLoginSuccess}
-              
+
                 callback={handleGoogleLoginSuccess}
                 // icon="fa-facebook"
                 cssClass="facebook-button"
@@ -147,7 +145,7 @@ export default function SignInUpForm() {
               <button className="ghost" onClick={handleSignInClick}>
                 Sign In
               </button>
-              
+
             </div>
             <div className="overlay-panel overlay-right">
               <h1>Hello, Friend!</h1>

@@ -42,9 +42,10 @@ strong {
 }
 
 h2.mb-3 {
-  color: #80CA2D;
+  color: #22c55e;
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
 }
 
 h6.mb-6 {
@@ -52,7 +53,7 @@ h6.mb-6 {
   justify-content: center;
   margin-bottom: .2rem;
   text-align: center;
-  color: #666666;
+  color: black;
 }
 
 .team .member {
@@ -160,7 +161,6 @@ p.my-3:hover {
 div.mb-3 {
   display: inline-flex;
   padding: .5rem;
-  width: 50%;
 }
 
 div.mb-4 {
@@ -168,10 +168,17 @@ div.mb-4 {
 }
 
 button.btn-danger {
-  color: #edffeb;
-  background-image: linear-gradient(#b2fe5c, #2B2B2D);
+  color: white;
+  background-color: black;
   border: none;
   width: 10rem;
   display: flex;
+  padding: 10px 20px;
+  border-radius: 7px;
   justify-content: center;
+  transition: 150ms;
+}
+
+button.btn-danger:hover {
+  background-color: rgb(245 158 11 );
 }

@@ -18,14 +18,14 @@ function Header() {
           <div className="hidden md:block">
             <nav aria-label="Site Nav">
               <ul className="flex items-center gap-6 text-md">
-                <li>
+                <li className="transition hover:text-amber-500">
                   <Link to="/">
                     <AiFillHome className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
                     Home
                   </Link>
                 </li>
 
-                <li>
+                <li className="transition hover:text-amber-500">
                   <Link to="products">
                     <GiPaperBagOpen className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
                     All
@@ -33,21 +33,21 @@ function Header() {
                   </Link>
                 </li>
 
-                <li>
+                <li className="transition hover:text-amber-500">
                   <Link to='Search'>
                     <BsFillSearchHeartFill className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
                     Search
                   </Link>
                 </li>
 
-                <li>
+                <li className="transition hover:text-amber-500">
                   <Link to="About">
                     <BsFillInfoCircleFill className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
                     About
                   </Link>
                 </li>
 
-                <li>
+                <li className="transition hover:text-amber-500">
                   <Link to="Contact">
                     <AiFillMail className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
                     Contact
@@ -59,7 +59,7 @@ function Header() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <Link to='Login' className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow">
+              <Link to='Login' className="rounded-md button-shop px-5 py-2.5 text-sm font-medium text-white shadow">
                 Login
               </Link>
 

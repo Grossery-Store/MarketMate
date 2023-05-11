@@ -21,22 +21,6 @@
   color: #fab00f
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #3e8e41;
-}
-
-
-
 
 .number-input input[type="number"] {
   -webkit-appearance: textfield;
