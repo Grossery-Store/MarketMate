@@ -31,18 +31,18 @@ const Discounts = () => {
           <div className="w-64 h-96 bg-white border border-gray-200 rounded-md shadow-sm p-2 mx-4">
             <img className="rounded-t-md w-full h-48 object-cover" src={d.image} alt="Discount image" width="250" height="250" />
             <div class="p-2 flex-1">
-              <h5 className="mb-1 text-base text-black font-semibold tracking-tight">
+              <h5 className="mb-1 text-lg text-black font-semibold tracking-tight">
                 {d.name}
               </h5>
-              <p className="mb-2 text-xs text-black">
+              <p className="mb-2 text-base text-black">
                 {d.description}
               </p>
-              <p className="mb-3 font-normal text-xs text-black">
+              <p className="mb-3 text-base text-black">
                 ${d.price}
               </p>
               <a
                 href="#"
-                className="inline-block px-2 py-1 text-xs font-medium text-center text-white bg-amber-400 rounded-md"
+                className="inline-block px-2 py-1 text-xs font-medium text-center text-white cursor-pointer bg-amber-500 rounded-md hover:bg-black transition"
                 onClick={() => handleClick(d.name, d.price)}>
                 Add to Cart
               </a>

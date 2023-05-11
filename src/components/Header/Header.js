@@ -28,47 +28,13 @@ function Header() {
                 <li>
                   <Link to="products">
                     <GiPaperBagOpen className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
-                    All 
-                    {/* Products */}
+                    All
+                    Products
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="Vegetables">
-                    <GiCarrot className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
-                    Vegetables
-                  </Link>
-                </li>
-                <li>
-                  <Link to= "Fruits">
-                    <GiFruitBowl className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
-                    Fruits
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to= "Meats">
-                    <GiMeat className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
-                    Meats
-                  </Link>
-                </li>
-
-                <li>
-                  <Link to='Bakery'>
-                    <GiSlicedBread className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
-                    Bakery
-                    </Link>
-                </li>
-
-                <li>
-                <Link to='Frozen'>
-                    <GiFrozenOrb className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
-                    Frozen
-                  </Link>
-                </li>
-
-                <li>
-                <Link to='Search'>
+                  <Link to='Search'>
                     <BsFillSearchHeartFill className="text-green-500 xl:inline-block mx-2.5 lg:block w-5 h-5" />
                     Search
                   </Link>
@@ -93,23 +59,20 @@ function Header() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <Link to='Login'
-                className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow"
-              >
+              <Link to='Login' className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow">
                 Login
               </Link>
 
               <div className="hidden sm:flex">
-              <Link to='Cart_page' className="px-2 py-2.5 text-green-500"
-                  href="/">
+                <Link to='Cart_page' className="px-2 py-2.5 text-green-500">
                   <BsFillCartFill className="w-6 h-6" />
-                  </Link>
+                </Link>
               </div>
             </div>
 
             <div className="block md:hidden">
               <button className="rounded bg-gray-100 p-2 mr-2 text-gray-600">
-                <AiOutlineMenu/>
+                <AiOutlineMenu />
               </button>
             </div>
           </div>
