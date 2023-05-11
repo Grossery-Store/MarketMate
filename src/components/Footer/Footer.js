@@ -15,108 +15,77 @@ const Footer = () => {
                     </div>
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
                         <div className="text-left sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Quick links</p>
+                            <p className="text-xl font-medium text-gray-900">Quick links</p>
 
                             <nav aria-label="Footer About Nav" className="mt-8">
                                 <ul className="space-y-4 text-sm">
                                     <li>
                                         <Link to="/"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Home
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to="products"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             All products
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to="About"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-5005">
                                             About
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to="Contact"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Contact
                                         </Link>
                                     </li>
-                                    <ul className="mt-8 flex justify-start gap-6 sm:justify-start md:gap-8">
-                                        <li>
-                                            <a
-                                                href="/"
-                                                rel="noreferrer"
-                                                target="_blank"
-                                                className="text-blue-400">
-                                                <AiFillLinkedin className='h-6 w-6 transition hover:text-teal-700/75' />
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a
-                                                href="/"
-                                                rel="noreferrer"
-                                                target="_blank"
-                                                className="text-green-500">
-                                                <BsTelephoneFill className='h-5 w-5 transition hover:text-teal-700/75' />
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a
-                                                href="/"
-                                                rel="noreferrer"
-                                                target="_blank"
-                                                className="text-red-600">
-                                                <SiGmail className='h-5 w-5 transition hover:text-teal-700/75' />
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </ul>
                             </nav>
                         </div>
 
                         <div className="text-left sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Our products</p>
+                            <p className="text-xl font-medium text-gray-900">Our products</p>
 
                             <nav aria-label="Footer Services Nav" className="mt-8">
                                 <ul className="space-y-4 text-sm">
                                     <li>
                                         <Link to="Vegetables"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Vegetables
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to="Fruits"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Fruits
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to="Meats"
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Meats
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to='Bakery'
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Bakery
                                         </Link>
                                     </li>
 
                                     <li>
                                         <Link to='Frozen'
-                                            className="text-black transition hover:text-gray-700/75">
+                                            className="transition hover:text-amber-500">
                                             Frozen
                                         </Link>
                                     </li>
@@ -124,23 +93,11 @@ const Footer = () => {
                             </nav>
                         </div>
                         <div className="text-left sm:text-left w-60">
-                            <p className="text-lg font-medium text-gray-900">join us</p>
+                            <p className="text-xl font-medium text-gray-900">Our vision</p>
                             <p className="mt-6 max-w-md leading-relaxed sm:max-w-xs sm:text-left">
-                                Log in now to be able to enjoy all our services
+                                Esay shopping and make all requirements for you
                             </p>
-                            <form action="" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
 
-                                <div className="flex items-center justify-between">
-                                    <Link to='Login'>
-                                        <button
-                                            type="submit"
-                                            className="inline-block rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white">
-                                            Login
-                                        </button>
-                                    </Link>
-                                </div>
-
-                            </form>
                         </div>
                     </div>
                 </div>
