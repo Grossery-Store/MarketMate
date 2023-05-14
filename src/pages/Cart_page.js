@@ -253,16 +253,5 @@ export default function Basic() {
 
 
 
-            // { cart.length >0 ? (
-            //   <div className="center">
-            //     <FontAwesomeIcon className="iconc" icon={faShoppingCart} />
-            //     <h2>Your cart is empty</h2>
-            //     <p>Spend $0.00 more and get free shipping!</p>
-            //      <Link to="/" > <button className="shopnow ">Shop Now</button></Link>
-            //   </div>
-            // ) : (
-
-
-
 
 

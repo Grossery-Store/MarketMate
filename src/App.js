@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Landing from "./pages/Landing";
 import SignInUpForm from "./pages/Login";
-import SignUp from "./pages/Signup";
 import Footer from "./components/Footer/Footer";
 import "./components/ContactAbout/ConAbout.css";
 import Vegetables from "./components/P-Categories/Vegetables";
@@ -14,9 +13,11 @@ import Fruits from "./components/P-Categories/Fruits";
 import Meats from "./components/P-Categories/Meats";
 import Bakery from "./components/P-Categories/Bakery";
 import Frozen from "./components/P-Categories/Frozen";
+import Cart_pop from "./components/Cart_pop";
 import Search from "./components/P-Categories/Search";
 import Dairy from "./components/P-Categories/Dairy";
 import Basic from "./pages/Cart_page";
+
 import Conff from "./pages/Conff";
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
@@ -44,10 +45,11 @@ function App() {
         <ProductContext.Provider value={{ data }}>
           <CartContext.Provider value={{ cart, setCart }}>
             <Header />
-
+            
             <Routes>
-
-              <Route path="Cart_page" element={<Basic />} />
+            <Route path="/Conff" element={<Conff />} />
+            <Route path="/Cart_page" element={<Basic />} />
+            <Route path="/Cart_pop" element={<Cart_pop />} />
               <Route path="/" element={<Landing />} />
               <Route path="Products" element={<Products />} />
               <Route path="Vegetables" element={<Vegetables />} />
@@ -59,12 +61,11 @@ function App() {
               <Route path="Search" element={<Search />} />
               <Route path="About" element={<About />} />
               <Route path="Contact" element={<Contact />} />
-              <Route path="Login" element={<SignInUpForm />} />
-              <Route path="Signup" element={<SignUp  />} />
-              <Route path="Conff " element={<Conff />} />
+              <Route path="Login" element={<SignInUpForm  />} />
+             <Route path="Conff " element={<Conff />} />
             </Routes>
             <Footer />
-
+         
           </CartContext.Provider>
         </ProductContext.Provider>
       </BrowserRouter>
